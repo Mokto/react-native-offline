@@ -17,4 +17,7 @@ module.exports = {
   get networkEventsListenerSaga() {
     return require('./sagas').default;
   },
+  get checkInternetAccess() {
+    return require('./checkInternetAccess').default;
+  },
 };
